@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- favIcon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jimmy's Diner</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Jimmy's Diner</h1>
+            <p>The best burgers and pizzas in town.</p>
+        </div>
+    </header>
+
+    <main>
+        <div id="food-item-menu">
+            <!-- Food items will be displayed here -->
+        </div>
+
+        <section class = "cart-section">
+            <h3>Your order</h3>
+            <div class="cart-container" id="cart-container">
+                <!-- Cart items will be displayed here -->
+            </div>
+            <div id = "total" class = "total">
+                <!-- Total price of items will be displayed here -->
+            </div>
+            <div class="cart-btn-container">
+                <a id = "cart-btn" class="cart-btn">Complete order</a>
+            </div>
+        </section>
+    </main>
+    <div id = "form" class = "form">
+        
+        <form class = "payment-form" id="payment-form">
+            <label> Enter card details </label>
+            <input 
+            type = "text"
+            id = "name"
+            name = "name"
+            placeholder="Enter your name" required
+            >
+            <input 
+            type= "text"
+            id = "cardNo"
+            name = "cardNo"
+            placeholder="Enter card number" required
+            >
+            <input 
+            type = "text"
+            id = "cvv"
+            name = "cvv"
+            placeholder="Enter CVV" required
+            >   
+            <button class = "pay-btn" id = "pay-btn"> Pay</button>
+        </form>
+    </div>
+    
+
+
+    <script type="module" src="index.js"></script>
+    
+</body>
+
+</html>

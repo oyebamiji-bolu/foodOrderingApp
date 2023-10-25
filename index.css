@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    font-family: "Smythe", sans-serif;
+    position: relative;
+}
+
+.container, section, .form{
+    margin-top: 0px;
+    width: 508px;
+    margin-left: 46px;
+      
+}
+
+
+
+header {
+    background-image: url("ferks-guare-KEZdWfYD-ow-unsplash.jpg");
+    background-position: left center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 143px;
+    color: #FFFFFF;
+    padding-top: 10px;
+    
+    
+}
+
+header h2 {
+    font-size: 39px;
+    font-weight: 400;
+    letter-spacing: 0em;
+}
+
+
+header p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 0em;
+    
+}
+
+.food-item-menu {
+    display: flex;
+    width: 500px;
+    padding-top: 0px;
+    margin :0 0 0 47px; 
+   border-bottom: 1px solid #D2D2D2; 
+   position: relative;
+   
+}
+
+.food-item-icon {
+    margin-right: 10px;
+    font-size:89px;
+    opacity: 0.7;
+}
+
+.details-container {
+    padding-top: 25px;
+    
+}
+
+.details-container p {
+    margin: 0; 
+}
+
+.food-name {
+    font-size: 28px;
+}
+
+.small-text {
+    font-size: 16px;
+}
+
+.price {
+    font-size: 20px;
+}
+
+.add-item-icon {
+   position: absolute;
+   top: 20px;
+   right: 0px;
+}
+
+
+
+.cart-container {
+   
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cart-item {
+   
+    height: 25px;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: center;
+    width: 97%; /* Adjust the width based on your design */
+    
+}
+
+.remove-item {
+font-family: Verdana;
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+font-family: Verdana;
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+border: none;
+background-color: transparent;
+padding: 0px;
+cursor: pointer;
+color: #BBBBBB;
+margin-right: auto;
+}
+
+h3 {
+    text-align: center;
+    display: block;
+    margin-top: 13px;
+
+}
+
+.cart-btn {
+    display:inline-block; 
+    background: #16DB99;
+    width: 508px;
+    height: 60px;
+    line-height: 60px; 
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; 
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto; 
+}
+
+
+.total{
+    border-top: 2px solid black;
+    display:flex 
+     
+}
+.sum{
+    
+    width: 100%;
+    display: flex;
+}
+span{
+   margin-right: 15px;
+    margin-left: auto
+}
+label{
+    font-family: Verdana;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+}
+.form{
+position:absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+margin: auto auto auto 40px;
+
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 524px;
+height: 542px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: #FFFFFF;
+}
+.payment-form{
+    display: flex;
+    flex-direction: column;
+    
+}
+input[type="text"] {
+   width: 475.91px;
+   height: 40px;
+   font-size: 20px;
+   color:#757575;
+   margin-top: 23.2px;
+   
+}
+.pay-btn{
+    
+    background: #16DB99;
+    width: 475.91px;
+    height: 71.3px;
+    border-radius: 3.89px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    margin: 47px auto 0 auto ;
+}
+
+.confirmation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 504px;
+    height: 120px;
+    background: #ECFDF5;
+    margin-top: 45px;
+    font-size: 32px;
+    font-weight: 400px;
+}
